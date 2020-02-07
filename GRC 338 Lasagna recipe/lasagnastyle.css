@@ -1,0 +1,52 @@
+/*CSS DOCUMENT*/
+
+
+img {
+width: 65%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:2em;
+    margin-top:2em;
+}
+
+div.container h1 {
+    text-align: center;
+}
+
+div.container h2{
+    text-align:center;
+    font-style:italic;
+    color:#455E00;
+
+}
+
+body{
+    background-color: #F5F3ED;}
+div.intro p{
+    margin:auto;
+    width:60%;
+    margin-bottom:3em;  
+}
+
+div.ingredients{
+    margin: auto;
+    width:50%;
+    margin-bottom: 4em;
+}
+
+div.ingredients h3{
+    text-align: center;
+    color:#455E00;
+    
+}
+
+div.directions h3{
+    text-align: center;
+    color:#455E00;
+}
+
+div.directions{
+    margin:auto;
+    width:75%;
+}
