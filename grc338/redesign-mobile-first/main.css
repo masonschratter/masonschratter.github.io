@@ -1,0 +1,83 @@
+/*CSS DOCUMENT*/
+img {
+width: 65%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:2em;
+    margin-top:2em;
+}
+.logo img{
+    width:40%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 3em;
+}
+
+h1{color:#131D6E;
+ font-size: 2.5em;
+display:block;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top:3em;
+}
+
+h2{
+    color:#704995;
+    margin-top:1.5em;
+}
+h3{
+    font-family:sans-serif;
+    color:#8c8fc2;
+}
+
+.mainmenu ul{
+    list-style: none;
+}
+
+body{
+    background-color: #F5F3ED;
+}
+
+.mainmenu li{
+    float:left;
+    margin-right: 4em;
+    margin-top: 1.5em;
+    margin-bottom: 3em;
+    text-transform: uppercase;
+
+}
+a{
+    text-decoration: none;
+}
+.males{
+    background-color:#d1ebf5;
+}
+.females{
+    background-color:#f5d1ed;
+}
+.males p{
+    margin-left: 8em;
+    margin-bottom: 3em;
+}
+.females p{
+    margin-left: 8em;
+    margin-bottom: 3em;
+}
+.males img{
+    margin-bottom: 0em;
+}
+.females img{
+    margin-bottom: 0em;
+}
+.contact ul{
+    list-style: none;
+}
+.contact li{
+    font-size: 1.5em;
+}
+div.maincontent{
+    max-width:35em;
+    margin:auto;
+}
