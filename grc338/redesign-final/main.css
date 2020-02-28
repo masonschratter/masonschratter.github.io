@@ -1,87 +1,99 @@
 /*CSS DOCUMENT*/
+
 img {
-width: 65%;
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
-    margin-bottom:2em;
-    margin-top:2em;
+    width: 65%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+    margin-top: 2em;
 }
-.logo img{
-    width:40%;
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
+
+.logo img {
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 3em;
 }
 
-h1{
-    color:#131D6E;
+h1 {
+    color: #131D6E;
     font-size: 2.5em;
-    display:inline-block;
+    display: inline-block;
 }
 
-h2{
-    color:#704995;
-    margin-top:1.5em;
-}
-h3{
-    font-family:sans-serif;
-    color:#8c8fc2;
+h2 {
+    color: #704995;
+    margin-top: 1.5em;
 }
 
-.mainmenu ul{
+h3 {
+    font-family: sans-serif;
+    color: #8c8fc2;
+}
+
+.mainmenu ul {
     list-style: none;
     display: inline-block;
 }
 
-body{
+body {
     background-color: #F5F3ED;
 }
 
-.mainmenu li{
-    float:left;
+.mainmenu li {
+    float: left;
     margin-right: 4em;
     margin-top: 1.5em;
     margin-bottom: 3em;
     text-transform: uppercase;
-
 }
 
-a{
+a {
     text-decoration: none;
 }
-.males{
-    background-color:#d1ebf5;
+
+.males {
+    background-color: #d1ebf5;
 }
-.females{
-    background-color:#f5d1ed;
+
+.females {
+    background-color: #f5d1ed;
 }
-.males p{
+
+.males p {
     margin-left: 8em;
     margin-bottom: 3em;
 }
-.females p{
+
+.females p {
     margin-left: 8em;
     margin-bottom: 3em;
 }
-.males img{
+
+.males img {
     margin-bottom: 0em;
 }
-.females img{
+
+.females img {
     margin-bottom: 0em;
 }
-.contact ul{
+
+.contact ul {
     list-style: none;
 }
-.contact li{
+
+.contact li {
     font-size: 1.5em;
 }
-div.maincontent{
-    max-width:35em;
-    margin-left:3em;
+
+div.maincontent {
+    max-width: 35em;
+    margin-left: 3em;
 }
-.map img{
-    width:50%;
-    margin-top:5em;
+
+.map img {
+    width: 50%;
+    margin-top: 5em;
 }
