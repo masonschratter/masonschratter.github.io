@@ -18,19 +18,20 @@ img {
 }
 
 h1 {
-    color: #131D6E;
+    font-family:"Marker Felt", serif;
+    color: #15148F;
     font-size: 2.5em;
     display: inline-block;
 }
 
 h2 {
-    color: #704995;
+    color: #802E94;
     margin-top: 1.5em;
+    font-family: 'Fjalla One', sans-serif;
 }
 
 h3 {
-    font-family: sans-serif;
-    color: #8c8fc2;
+    color: #802E94;
 }
 
 .mainmenu ul {
@@ -52,6 +53,11 @@ body {
 
 a {
     text-decoration: none;
+    color: #802E94;
+}
+
+a:visited {
+    color: #802E94;
 }
 
 .males {
@@ -65,11 +71,13 @@ a {
 .males p {
     margin-left: 8em;
     margin-bottom: 3em;
+    font-family: cursive;
 }
 
 .females p {
     margin-left: 8em;
     margin-bottom: 3em;
+    font-family:cursive;
 }
 
 .males img {
