@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product+parallax</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+        <header>
+            <h1><a href="index.html"><img src="images/penlogo.svg" alt="logo of pen drawing"></a></h1>
+              <nav id="mainmenu">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="products.html">Products </a>
+                      <ul>
+                         <li><a href="#">Pencils</a></li>
+                         <li><a href="#">Pens</a></li>
+                         <li><a href="#">Charcoal</a></li>
+                      </ul>   
+                      </li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                </ul>   
+            </nav>
+            <div class="toggle" tabindex="-1" aria-hidden="true" aria-labelledby="#main-menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+         </header>
+         <main>
+        <section>
+            <div class="name">
+                <p>CP Pencils</p>
+            </div>
+            <div class="banner">
+                <h2 data-parallax="scroll" data-image-src="images/pencilsbanner.jpeg">Be Creative</h2>
+            </div>
+            <p>Cal Poly Pencils has been specialized in manufacturing the highest quality graphite pencils for 50 years. Recently, they have expanded to include charcoal pencils and ink pens as well to allow artists to broaden their range of art styles. Our pencils and supplies are ideal for professional artists looking for durable supplies made from the best materials available. Whether a designer, fine artist, or you just enjoy sketching regularly, these pencils will offer a smooth and even mark that will help you create beautiful art.</p>
+            <ul class ="pages">
+                <li>
+                    <h3>Products</h3>
+                    <a href="images/prodcrop.jpg" data-fancybox="images1" data-caption="Products">
+                    <img src="images/prodcrop.jpg" alt="bundle of pencils and pens">
+                    </a>
+                </li>
+                <li>
+                    <h3>Gallery</h3>
+                    <a href="images/galcrop.jpg" data-fancybox="images2" data-caption="Products">
+                    <img src="images/galcrop.jpg" alt="notebook doodle with pencil">
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
+        
+        <!---jquery-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+        <!---Parallax jQuery plugin-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax.js/1.5.0/parallax.min.js" integrity="sha512-Blu6KWaTqestULmtJUTB2mwDFTB/FDRuTHV52Uu5dTFVQZ8YWUq2LuxN/brNEjWAqlHr50oAbxrydsuxoK/mqQ==" crossorigin="anonymous"></script>
+        <!---fancybox-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+        <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+        <!--custom--->
+        <script src="js/script.js"></script>
+        <!---from nav-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+</body>
+</html>

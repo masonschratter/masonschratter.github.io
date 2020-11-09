@@ -1,0 +1,13 @@
+.banner{
+  height:30vh;
+  /*background: #003;*/
+  color: #fff;
+  text-align:center;
+  margin-bottom:3em;  
+}
+.banner h2{
+  line-height: 30vh;
+  font-size:5vh;
+  min-height:30vh;
+  text-shadow:0 0 10px #000;
+}
